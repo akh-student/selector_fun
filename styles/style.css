@@ -2,61 +2,109 @@
 
 
 /* Give the Header element a background color */
-
+header {
+  background-color: #3AAFB9;
+}
 
 /* Center Everything in Header  and footer */
-
+header, footer {
+  align-content: center;
+}
 
 /* All Text to Helvetica */
-
+body {
+  font-family: Helvetica;
+}
 
 /* All links colors gray*/
+a:link {
+  color: gray;
+}
 
 
 /* All links hover color red*/
-
+a:hover {
+  color: red;
+}
 
 /* All Links Visted Color black*/
-
+a:visited {
+  color: black;
+}
 
 /*Footer Disclaimer Text to be .5 em*/
-
+#disclaimer {
+  font-size: .5em;
+}
 
 /* Remove Bullet Points from Header Navigation Links */
+header nav li {
+  list-style: none;
+}
 
 
 /* All Post's Comment Links Italicized, Orange and Remove the Underline */
-
+#top-cats a:link {
+  color: orange;
+  text-decoration: none
+}
 
 /* All Post's Comment Links Show Underline on Hover */
+#top-cats a:hover {
+  text-decoration: underline;
+}
 
 
 /* All Post's Author's Links Bold and Blue, with no Underline */
-
+h3 a:link {
+  color: blue;
+  text-decoration: none;
+  font-style: bold;
+}
 
 /* Article Paragraph Text should have line height of 200%*/
+article p{
+  line-height: 200%;
+}
 
 
 /* The First Letter of each Article be 2em */
+section.post-content p:first-letter {
+  font-size: 2em;
+}
 
 
 /* The First Image in every Article should have Rounded Corners*/
-
+img:first-child {
+  border-color: white;
+  border-radius: 100px;
+}
 
 /* The Top-Most Top Cat Should have a Golden Background */
+#top-cats section:nth-of-type(1) {
+  background-color: #EEE8AA;
+}
 
 
 /* The 2nd-Most Top Cat Should have a Silver/gray Background */
-
+#top-cats section:nth-of-type(2) {
+  background-color: #C0C0C0;
+}
 
 /* The 3rd-Most Top Cat Should have a Bronze/brown Background */
-
+#top-cats section:nth-of-type(3) {
+  background-color: #C9AE5D;
+}
 
 /* Every other Article's Post-Content Background Color to a Light Grey */
-
+article {
+  background-color: lightgrey;
+}
 
 /* All Top Kitten's Profile Photos Rounded */
-
+#top-cats img {
+  border-radius: 20px;
+}
 
 /*** BONUS ***/
 
